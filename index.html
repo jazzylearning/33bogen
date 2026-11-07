@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>33 Bogen und ein Teehaus – Prüfungsvorbereitung</title>
+<style>
+:root{--rost:#b4532a;--dunkel:#3b1f14;--hell:#fbf1e8;--sand:#f1dcc6;--gruen:#2f7d4f;--blau:#2b5d8a}
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,'Segoe UI',serif;background:var(--hell);color:#2a1a12;line-height:1.65}
+header{background:linear-gradient(135deg,var(--rost),var(--dunkel));color:#fff;padding:2rem 1rem;text-align:center}
+header h1{margin:0;font-size:2.1rem;letter-spacing:1px}
+header p{margin:.4rem 0 0;opacity:.92}
+nav{position:sticky;top:0;background:var(--dunkel);display:flex;flex-wrap:wrap;justify-content:center;gap:.2rem;padding:.4rem;z-index:10}
+nav button{background:transparent;color:#fff;border:0;padding:.5rem .8rem;cursor:pointer;border-radius:6px;font-size:.92rem;font-family:inherit}
+nav button.active,nav button:hover{background:var(--rost)}
+main{max-width:1000px;margin:auto;padding:1rem}
+section{display:none}
+section.active{display:block}
+h2{color:var(--rost);border-bottom:3px solid var(--sand);padding-bottom:.3rem}
+h3{color:var(--dunkel);margin-top:1.6rem}
+.card{background:#fff;border-left:5px solid var(--rost);border-radius:8px;padding:1rem 1.2rem;margin:1rem 0;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+.grid .card{margin:0}
+.note{background:#fff7d6;border:1px solid #e6cf75;border-radius:8px;padding:.8rem 1rem;font-size:.92rem;margin:1rem 0}
+table{border-collapse:collapse;width:100%;background:#fff;margin:.6rem 0}
+th,td{border:1px solid #ddc9b4;padding:.5rem .6rem;text-align:left;vertical-align:top;font-size:.95rem}
+th{background:var(--sand)}
+details{background:#fff;border:1px solid #ddc9b4;border-radius:8px;margin:.6rem 0;padding:.6rem 1rem}
+summary{cursor:pointer;font-weight:bold}
+.sol{background:#e9f6ee;border-left:4px solid var(--gruen);padding:.6rem .9rem;margin-top:.6rem;border-radius:4px}
+.tag{display:inline-block;background:var(--sand);border-radius:12px;padding:.1rem .6rem;font-size:.8rem;margin:.1rem}
+.timeline{border-left:4px solid var(--rost);padding-left:1.2rem;margin-left:.5rem}
+.timeline div{margin-bottom:1rem;position:relative}
+.timeline div::before{content:'';position:absolute;left:-1.7rem;top:.5rem;width:12px;height:12px;border-radius:50%;background:var(--rost)}
+.quiz-q{background:#fff;border-radius:8px;padding:.8rem 1rem;margin:.8rem 0;border:1px solid #ddc9b4}
+.quiz-q label{display:block;padding:.25rem 0;cursor:pointer}
+.ok{color:var(--gruen);font-weight:bold}.bad{color:#b00020;font-weight:bold}
+.btn{background:var(--rost);color:#fff;border:0;padding:.6rem 1.2rem;border-radius:6px;cursor:pointer;font-size:1rem;font-family:inherit}
+.flash{background:#fff;border:2px solid var(--rost);border-radius:10px;padding:1.5rem;min-height:130px;text-align:center;cursor:pointer;font-size:1.1rem;display:flex;align-items:center;justify-content:center}
+blockquote{margin:.4rem 0;padding:.4rem .9rem;border-left:4px solid var(--sand);background:#fffaf4;font-style:italic}
+a{color:var(--blau)}
+.pg{font-size:.8rem;white-space:nowrap}
+footer{text-align:center;font-size:.85rem;color:#7a6556;padding:2rem 1rem}
+@media print{nav,.btn{display:none}section{display:block!important;page-break-after:always}details{display:block}}
+</style>
+</head>
+<body>
+<header>
+<h1>33 Bogen und ein Teehaus</h1>
+<p>Mehrnousch Zaeri-Esfahani · Illustrationen: Mehrdad Zaeri-Esfahani · Prüfungsvorbereitung Deutsch, Kantonsschule Uster</p>
+</header>
+<nav id="nav"></nav>
+<main>
+
+<!-- ÜBERBLICK -->
+<section id="start">
+<h2>Überblick</h2>
+<div class="note"><b>So sind die Seitenangaben gemeint:</b> «S.» = PDF-Seite der gelesenen Datei (Peter Hammer Verlag, 118 PDF-Seiten, davon Romantext S. 5–109). Die Seitenzahlen deiner Taschenbuchausgabe (Carlsen) können abweichen. Trage die Seiten in deinem Exemplar nach! Die blauen Links springen direkt zur PDF-Seite.</div>
+<div class="grid">
+<div class="card"><b>Autorin</b><br>Mehrnousch Zaeri-Esfahani, 1974 in Isfahan geboren, 1985 mit ihrer Familie nach Deutschland geflohen (Angabe aus der Autorenbiografie, <a href="https://myaidrive.com/e5vQUVK2EuzAFwtKAqdiQkJedrxxGdZC?pdfPage=110" target="_blank">S. 110</a>). Das Buch ist ihre eigene Geschichte, ihre Eltern widmet sie «Mehri und Hosein, meine mutigen Eltern» (<a href="https://myaidrive.com/e5vQUVK2EuzAFwtKAqdiQkJedrxxGdZC?pdfPage=3" target="_blank">S. 3</a>).</div>
+<div class="card"><b>Gattung</b><br>Autobiografisch geprägter Roman / Jugendbuch: Ich-Erzählung einer Erwachsenen, die als Kind erzählt. Illustrationen von ihrem Bruder Mehrdad.</div>
+<div class="card"><b>Aufbau</b><br><b>Prolog</b> (Pripjat/Tschernobyl, S. 5–9)<br><b>Teil 1 Iran</b> (S. 10–47)<br><b>Teil 2 Türkei</b> (S. 48–56)<br><b>Teil 3 Deutschland</b> (Berlin, Karlsruhe, Heidelberg, S. 57–104)<br><b>Epilog</b> (Tschernobyl, Familienname, S. 105–109)</div>
+<div class="card"><b>Themen</b><br>Revolution und Krieg, Flucht, Heimatverlust, Fremdsein, Sprache, Behörden und Asyl, Rassismus und Hilfsbereitschaft, Identität («Pilgerin aus Isfahan»).</div>
+</div>
+<h3>Wichtig zur Erzählerin</h3>
+<p>Im Fliesstext erhält die Ich-Erzählerin <b>keinen Vornamen</b>. Genannt wird nur der Familienname Zaeri(-Esfahani). Auch ihre Geschwister bleiben namenlos: <b>zwei ältere Brüder</b> und <b>eine kleine Schwester</b>. Der Vater heisst <b>Hosein</b>, die Mutter laut Widmung <b>Mehri</b>.</p>
+<h3>Das Titelbild</h3>
+<p>Silhouette eines Mädchens, das mit ausgebreiteten Armen balanciert, daneben die Bogenreihe der Brücke Si-o-Se-Pol. Das Balancieren steht für das Leben «zwischen» Welten (Iran/Deutschland, Kindsein/Verantwortung, Sicherheit/Gefahr). Das ist eine Deutung, belege sie im Text mit der Brücke (S. 13) und der Zerrissenheit der Erzählerin (S. 60).</p>
+</section>
+
+<!-- ZUSAMMENFASSUNG -->
+<section id="summary">
+<h2>Zusammenfassung</h2>
+<div class="card">
+<p><b>Kurzfassung:</b> Eine Ich-Erzählerin blickt als Erwachsene auf ihre Kindheit zurück. Sie wächst als Tochter eines Arztes und einer Krankenschwester im wohlhabenden Isfahan auf. Mit der Revolution gegen den Schah (1979) und dem Krieg mit dem Irak verwandelt sich der Alltag: Kopftuchzwang, getrennte Schulen, Verbote, Angst, Märtyrerpropaganda. Als dem 14-jährigen Bruder die Ausreise verwehrt zu werden droht, flieht die ganze Familie über die Türkei und die DDR nach West-Berlin und weiter nach Karlsruhe und Heidelberg. Dort beginnt ein mühsamer Neuanfang zwischen Behörden, Sprachbarriere, Ausgrenzung und ersten Freundschaften. Prolog und Epilog verbinden die Fluchtgeschichte mit der Katastrophe von Tschernobyl (1986): Während die Welt auf Pripjat schaut, hat die Familie «keine Zeit für eine Jahrhundertkatastrophe», weil sie ihre eigene Katastrophe bewältigt.</p>
+</div>
+<h3>Handlung im Detail (mit Seiten)</h3>
+<div class="timeline">
+<div><b>Prolog (<a href="https://myaidrive.com/e5vQUVK2EuzAFwtKAqdiQkJedrxxGdZC?pdfPage=6" target="_blank">S. 5–9</a>):</b> Pripjat, die Geisterstadt bei Tschernobyl. Die Erzählerin sagt, die Weltöffentlichkeit habe gebannt auf die Katastrophe geschaut – nur sie nicht. Ihre Familie (Eltern, zwei ältere Brüder, kleine Schwester) hat nach <b>vierzehn Monaten Flucht</b> Deutschland erreicht und lebt «unter einer Glasglocke» in einer Dreizimmer-Sozialwohnung in Heidelberg. Schluss: «So verpassten wir Tschernobyl.»</div>
+<div><b>Teil 1 – Iran, Herkunft (<a href="https://myaidrive.com/e5vQUVK2EuzAFwtKAqdiQkJedrxxGdZC?pdfPage=11" target="_blank">S. 11–13</a>):</b> Iran als «sitzende Katze», der Fluss Zayandeh Rud, die Salzwüste. Familiengeschichte: Abbas-Ali, Salzhändler, muss unter Reza Schah einen Nachnamen wählen (Namakizadeh-Esfahani, «Salzgeborener aus Isfahan»). Die Brücke Si-o-Se-Pol (33 Bogen) mit Teehäusern ist Treffpunkt; hier verbrachten die Eltern verliebte Stunden. Die Erzählerin (4) liebt die Brücke.</div>
+<div><b>Revolution (<a href="https://myaidrive.com/e5vQUVK2EuzAFwtKAqdiQkJedrxxGdZC?pdfPage=14" target="_blank">S. 13–22</a>):</b> Kritik am Schah (Armut, Paläste), Demonstration auf dem Schah-Platz (Kind auf Vaters Schultern, Menschenmenge wie Meereswellen), Parolen von den Dächern, Stau-Protest nach BBC-Aufruf, Khomeini im Mond als «Wunder». Für die Kinder ist es zunächst wie Ferien. Der Schah geht ins Exil, Khomeini kehrt aus Paris zurück.</div>
+<div><b>Nach der Revolution (<a href="https://myaidrive.com/e5vQUVK2EuzAFwtKAqdiQkJedrxxGdZC?pdfPage=22" target="_blank">S. 22–32</a>):</b> Die Freude verfliegt. Siba wird wegen eines verrutschten Schleiers von den Wächterinnen geschlagen, Männer verschwinden, die Pasdaran kontrollieren. Einschulung mit sechs: Kopftuch, die Mutter schneidet den Zopf ab. Getrennte Schulen, Verbote (Musik, Tanz, Spiele), Religionslehrerinnen überwachen, Angst vor der Hölle (Djehannam). In der 3. Klasse trägt die Erzählerin das Maghna’e «freiwillig».</div>
+<div><b>Krieg (<a href="https://myaidrive.com/e5vQUVK2EuzAFwtKAqdiQkJedrxxGdZC?pdfPage=25" target="_blank">S. 25–38</a>):</b> Der Irak greift an. Keller als Schutzraum, Nachbarin Frau Scharify erhält einen Brief, der zum «Märtyrertod» ihres Sohnes gratuliert, Märtyrerfriedhof mit rot gefärbtem Brunnenwasser. Die Bassidschi werben Jungen an, Kinder werden über Minenfelder geschickt. Der ältere Bruder lehnt den Krieg ab.</div>
+<div><b>Der Traum vom Westen (<a href="https://myaidrive.com/e5vQUVK2EuzAFwtKAqdiQkJedrxxGdZC?pdfPage=39" target="_blank">S. 39–41</a>):</b> Der ältere Bruder liebt Michael Jackson, kauft Jeans und Videos auf dem Schwarzmarkt und tanzt auf Festen. Als sein einziger Freund sich zum Militär meldet, verstummt er.</div>
+<div><b>Entscheid zur Flucht (<a href="https://myaidrive.com/e5vQUVK2EuzAFwtKAqdiQkJedrxxGdZC?pdfPage=42" target="_blank">S. 42–47</a>):</b> Ein neues Gesetz verbietet Männern ab 15 die Ausreise, der Bruder ist 14. Die Familie flieht gemeinsam. Die Erzählerin denkt zuerst an ihre Katzen (die «Katzenpolizei»). Das Haus wird billig verkauft, Gepäck gestempelt, letzte Nacht bei der Tante mit Märchen der Grossmutter. «In diesem Moment starb ich ein bisschen.»</div>
+<div><b>Teil 2 – Türkei (<a href="https://myaidrive.com/e5vQUVK2EuzAFwtKAqdiQkJedrxxGdZC?pdfPage=48" target="_blank">S. 48–56</a>):</b> Istanbul, Armenviertel Aksaray, illegale Flüchtlinge, keine Schule. Die Erzählerin lernt rasch Türkisch. Herr Mohammedi schlägt den Weg über die DDR-Botschaft in Ankara vor (Visum, dann Abschiebung in den Westen). Dezember 1985: Visa erhalten.</div>
+<div><b>Teil 3 – Berlin (<a href="https://myaidrive.com/e5vQUVK2EuzAFwtKAqdiQkJedrxxGdZC?pdfPage=57" target="_blank">S. 57–80</a>):</b> Flug nach Ost-Berlin (30-Stunden-Visum), S-Bahn nach West-Berlin, eisige Kälte, erstes deutsches Wort «Hotel». Weihnachten im Flüchtlingswohnheim bei den Cousins, Asylantrag, Läuse, Konflikte unter Flüchtlingen. Das KaDeWe als warmer Zufluchtsort, die Marionette, die ihre Schnüre kappt, der Fund einer Zweimarkmünze → zwei Schlümpfe, aufbewahrt in der «Margarinendose».</div>
+<div><b>Karlsruhe (<a href="https://myaidrive.com/e5vQUVK2EuzAFwtKAqdiQkJedrxxGdZC?pdfPage=81" target="_blank">S. 81–87</a>):</b> Februar/März 1986, Erstaufnahmeheim. Anstehen, «Hier spricht man Deutsch!», Fingerabdrücke, Unterschriften ohne Erklärung, Gefängnisgefühl. Der Vater darf (vorerst) nicht arbeiten; Gutscheine statt Bargeld. Zuweisung nach Heidelberg.</div>
+<div><b>Heidelberg (<a href="https://myaidrive.com/e5vQUVK2EuzAFwtKAqdiQkJedrxxGdZC?pdfPage=88" target="_blank">S. 88–104</a>):</b> April 1986. Eigene Wohnung, «Stille!», türkischer Laden als Heimat. Schulpflicht, Internationale Gesamtschule (IGH). Zuhal hilft, die Klassenlehrerin wird «Halt», aber Canan mobbt («Schlafanzug»), die Biologielehrerin ist ausländerfeindlich. «Pommes»-Durchsage → «Ich war integriert.» Staubsaugervertreter. Rätselhafte Nachrichten, gesperrter Spielplatz.</div>
+<div><b>Epilog (<a href="https://myaidrive.com/e5vQUVK2EuzAFwtKAqdiQkJedrxxGdZC?pdfPage=105" target="_blank">S. 105–109</a>):</b> Dnjepr/Skythen, Tschernobyl am 26. April 1986, Evakuierung von Pripjat (ein Koffer, ein Spielzeug pro Kind). Dreissig Jahre später ordnet die Erzählerin alles ein. Familienname-Geschichte (Gholamreza, Zaeri-Esfahani = «Pilger aus Isfahan»). Schluss: «Ich bin Pilgerin aus Isfahan, und mein Pilgerweg war es, Freiheit und Frieden zu finden.»</div>
+</div>
+</section>
+
+<!-- FIGUREN -->
+<section id="figures">
+<h2>Personen / Figuren</h2>
+<h3>Familie</h3>
+<table>
+<tr><th>Figur</th><th>Merkmale, Funktion, Belege</th></tr>
+<tr><td><b>Ich-Erzählerin</b></td><td>Namenlos im Text, geboren in Isfahan, 4 J. (Brücke), ca. 5 J. (Revolution), 6 J. (Einschulung), 10–11 J. (Flucht). Fantasievoll, tierlieb («Katzenmama»), wissbegierig, sensibel. Entwicklung: vom unbeschwerten Kind über das verängstigte Mädchen unter dem Kopftuch zur Geflüchteten, die sich zugehörig fühlt («Ich war integriert», S. 98) und sich als «Pilgerin» versteht (S. 109).</td></tr>
+<tr><td><b>Vater Hosein</b></td><td>Arzt, gebildet (spricht drei Sprachen), gegen den Schah. Optimistisch, will die Familie retten; in Deutschland überfordert und abhängig (Arbeitsverbot, Behörden). Dankbar für Bildungschancen der Kinder (S. 91–92).</td></tr>
+<tr><td><b>Mutter (Mehri)</b></td><td>Krankenschwester, praktisch, beschützend (Keller einrichten, S. 33–34; stellt den bedrohlichen Jungen zur Rede, S. 72). Kritisiert Kopftuchgesetz, zweifelt in Karlsruhe, ob die Flucht richtig war (S. 87).</td></tr>
+<tr><td><b>Älterer Bruder</b></td><td>Erfinderisch (will Schokoladenfabrikant werden, S. 18), später Michael-Jackson-Fan, lehnt den Krieg ab. Wird nach dem Freundesverlust still (S. 41). Sein Ausreiseverbot löst die Flucht aus (S. 42).</td></tr>
+<tr><td><b>Mittlerer Bruder</b></td><td>Ein Jahr älter als die Erzählerin, sportlich, flink, ihr Beschützer, hilft in der «Katzenpolizei».</td></tr>
+<tr><td><b>Kleine Schwester</b></td><td>Kam zum 4. Geburtstag der Erzählerin; willensstark, tröstet sie vor dem Flug (S. 56).</td></tr>
+<tr><td><b>Grossmutter</b></td><td>Aus Teheran; erklärt Khomeini, erzählt Märchen; Geruch von Lavendel, Tee und Gewürzen = Heimat (S. 16–17, 47).</td></tr>
+<tr><td><b>Lieblingstante</b></td><td>Schwester der Mutter, politisch aktiv, hilft bei der Einschulung, beherbergt die Familie in der letzten Nacht.</td></tr>
+<tr><td><b>Cousins</b></td><td>Wurden mit dem Codewort «Zucker» über die Grenze geschmuggelt; empfangen die Familie in West-Berlin (S. 42, 67–69).</td></tr>
+<tr><td><b>Abbas-Ali, Gholamreza</b></td><td>Vorfahren: Abbas-Ali (Salz, Namakizadeh-Esfahani, S. 11–12), Gholamreza (Zaeri-Esfahani, S. 108–109). Zeigen Herkunft und Namensgeschichte.</td></tr>
+</table>
+<h3>Iran</h3>
+<table>
+<tr><th>Figur</th><th>Funktion</th></tr>
+<tr><td><b>Siba</b></td><td>Junge Sportlerin, von Wächterinnen wegen eines verrutschten Schleiers geschlagen und festgehalten; kommt traumatisiert zurück und lacht lange nicht mehr (S. 22–25). Beispiel für staatliche Willkür.</td></tr>
+<tr><td><b>Frau Golban, Frau Fahimy</b></td><td>Frau Golban erhält keine Auskunft über ihre Tochter Siba; der Mann von Frau Fahimy ist seit Wochen verschwunden (S. 23).</td></tr>
+<tr><td><b>Frau Scharify</b></td><td>Nachbarin, Sohn gefallen, erhält Gratulationsbrief zum «Märtyrertod» (S. 32, 37).</td></tr>
+<tr><td><b>Pari</b></td><td>Kinderfrau der Familie, hat keinen eigenen Keller (S. 34) → soziale Unterschiede.</td></tr>
+<tr><td><b>Ali</b></td><td>Nachbarsjunge, der Tiere quält; selbst vom Vater geschlagen (S. 43–45) → Gewalt setzt sich fort.</td></tr>
+<tr><td><b>Hassan</b></td><td>Taxifahrer in Isfahan mit dem Peykan voller Kinder – Gegenbild zum Berliner Taxifahrer (S. 66).</td></tr>
+<tr><td><b>Herr Ghadimi, Said</b></td><td>Beschaffen / erwähnen das verbotene Michael-Jackson-Video (S. 39–40).</td></tr>
+</table>
+<h3>Türkei / DDR / Berlin</h3>
+<table>
+<tr><th>Figur</th><th>Funktion</th></tr>
+<tr><td><b>Herr Mohammedi</b></td><td>Iranischer Flüchtling, redselig; entwickelt den Plan mit den DDR-Visa (S. 51–53). Teilt später mit seiner Familie ein Zimmer im Wohnheim (S. 70–71).</td></tr>
+<tr><td><b>Taxifahrer, Polizisten, Heimleiter, arabischer Junge</b></td><td>Namenlos: stehen für Ablehnung, Behörden und Konflikte unter Flüchtlingsgruppen (S. 63–73).</td></tr>
+</table>
+<h3>Karlsruhe / Heidelberg</h3>
+<table>
+<tr><th>Figur</th><th>Funktion</th></tr>
+<tr><td><b>Zuhal</b></td><td>Türkische Mitschülerin; erste Freundin, Übersetzerin. Wird die Rolle als «Mama» zu viel, sie zieht sich zurück (S. 95–98). Missverständnis um ihre Geburtstagseinladung (S. 98–99).</td></tr>
+<tr><td><b>Canan</b></td><td>Türkische Mitschülerin, mobbt die Erzählerin (Schlafanzug, Zwicken, Zettel; S. 99–100).</td></tr>
+<tr><td><b>Klassenlehrerin</b></td><td>Geduldig, fördert die Erzählerin 1,5 Jahre lang: «Sie war mein Halt» (S. 101).</td></tr>
+<tr><td><b>Rektor der IGH</b></td><td>Begrüsst jedes Kind per Handschlag; Pommes-Durchsage (S. 92, 97–98).</td></tr>
+<tr><td><b>Biologielehrerin</b></td><td>Wird als ausländerfeindlich erlebt (S. 100).</td></tr>
+<tr><td><b>Beamter in Karlsruhe</b></td><td>«Hier spricht man Deutsch!» (S. 83).</td></tr>
+<tr><td><b>Staubsaugervertreter</b></td><td>Komisch-bittere Szene eines Sprach- und Kulturmissverständnisses (S. 102–103, 108).</td></tr>
+</table>
+</section>
+
+<!-- ZUSAMMENHÄNGE -->
+<section id="links">
+<h2>Zusammenhänge im Buch</h2>
+<div class="grid">
+<div class="card"><b>Rahmen: Pripjat ↔ Isfahan</b><br>Prolog und Epilog erzählen vom Verlust der Heimat in Pripjat. Die Familie verlässt Iran, die Bewohner von Pripjat ihre Stadt «ohne Abschied». Beide Gruppen haben nur einen Koffer / wenig Gepäck (S. 46–47 und S. 107). Die Erzählerin findet eine neue Heimat, als die Kinder aus Pripjat ihre verlieren (S. 108).</div>
+<div class="card"><b>Flüsse als roter Faden</b><br>Zayandeh Rud (Leben spendend, versiegt im Salzsee, S. 11) → Spree/Havel (Berlin) → <b>Rhein</b> (Freiheit, S. 82) → <b>Neckar</b> («gefangener Geselle», S. 89) → Pripjat/Dnjepr (Epilog). Die Flüsse spiegeln den Weg zwischen Freiheit und Einengung.</div>
+<div class="card"><b>Kopftuch ↔ Haare ↔ Fremdsein</b><br>Mutter schneidet den Zopf ab für das Kopftuch (S. 27–28). In Deutschland werden ihre lockigen Haare als «exotisch» betrachtet und ungefragt angefasst (S. 85–86, 94). Körper und Aussehen bleiben Gegenstand fremder Kontrolle.</div>
+<div class="card"><b>Diktatur ↔ Bürokratie</b><br>Iran: Kontrolle durch Pasdaran, Schule, Religion. Deutschland: Kontrolle durch Behörden, Formulare, Aufenthaltsbeschränkung (S. 83, 86–87). Sehr verschieden, aber beide nehmen der Familie Selbstbestimmung.</div>
+<div class="card"><b>Katzen ↔ Verantwortung</b><br>Iran ist eine Katze (S. 11), die Erzählerin Katzenmama; das Zurücklassen der Katzen ist ihr Hauptschmerz bei der Flucht (S. 43–46).</div>
+<div class="card"><b>Der Mond</b><br>Khomeini im Mond = Wunder und Hoffnung (S. 20–21); im Flugzeug will die Erzählerin den Mond nicht sehen (S. 60).</div>
+<div class="card"><b>Name und Herkunft</b><br>Kapitel 1: Namensgebung unter Reza Schah (Abbas-Ali). Epilog: Namensgebung Zaeri-Esfahani (Gholamreza). In Karlsruhe werden Namen falsch geschrieben (S. 85). Die Namen bilden eine Klammer um das Thema Identität.</div>
+<div class="card"><b>Kind vs. Erwachsene</b><br>Die Kinderperspektive («warum?») wird im Epilog durch die Sicht der Erwachsenen ergänzt: Staubsaugervertreter = Handelsvertreter, Tschernobyl = Grund für den gesperrten Spielplatz (S. 103–108).</div>
+</div>
+<h3>Ursache-Wirkung-Kette</h3>
+<p>Revolution → neue Verbote (Kopftuch, getrennte Schulen) → Krieg mit dem Irak → Bassidschi werben Jungen an, Ausreiseverbot ab 15 → Flucht der gesamten Familie → illegaler Aufenthalt in der Türkei → DDR-Visum → West-Berlin, Asyl → Flüchtlingsheim Karlsruhe → Wohnung und Schule in Heidelberg → Sprache lernen → Zugehörigkeit.</p>
+<h3>Leitfragen</h3>
+<ul>
+<li>Wie hängen politische Ereignisse und privates Leben zusammen?</li>
+<li>Warum erzählt eine Erwachsene aus Kinderperspektive?</li>
+<li>Was bedeuten Prolog und Epilog (Tschernobyl) für das Verständnis des Romans?</li>
+<li>Wie verändert sich der Blick auf «Heimat»?</li>
+</ul>
+</section>
+
+<!-- ANALYSE -->
+<section id="analysis">
+<h2>Buchanalyse auf verschiedenen Ebenen</h2>
+<h3>🏛 Historisch</h3>
+<div class="card"><ul>
+<li><b>Reza Schah Pahlavi:</b> Einführung von Nachnamen und Familienbüchern (S. 11).</li>
+<li><b>Revolution gegen Mohammad Reza Schah:</b> Proteste, BBC-Aufruf, Schah im Exil, <b>Khomeini</b> kehrt aus Paris zurück (S. 14–21).</li>
+<li><b>Islamische Republik:</b> religiöse Vorschriften, <b>Pasdaran</b> (Revolutionsgarde), Verschwundene, Auspeitschungen und Hinrichtungen (S. 22–30).</li>
+<li><b>Iran–Irak-Krieg:</b> Luftangriffe, Keller, Märtyrerkult, <b>Bassidschi</b>, Kindersoldaten, Minenfelder (S. 25–38).</li>
+<li><b>Kalter Krieg / geteiltes Deutschland (Dez. 1985):</b> DDR-Visum, Ost-Berlin → West-Berlin, Mauer (S. 51–66).</li>
+<li><b>Asylwesen der BRD 1986:</b> Zuweisung, Residenzpflicht (Stadtgrenzen nicht verlassen), Arbeitsverbot, Gutscheine (S. 82–87).</li>
+<li><b>Tschernobyl, 26. April 1986:</b> Reaktorunglück, Evakuierung von Pripjat (S. 105–107).</li>
+</ul></div>
+<h3>💶 Wirtschaftlich</h3>
+<div class="card"><ul>
+<li><b>Wohlstand im Iran:</b> Vater Arzt, Haus mit Garten und Pool, Bedienstete (Pari) (S. 19, 34, 49). Salzhandel als Familiengeschäft (S. 11).</li>
+<li><b>Basar als Wirtschaftsmacht:</b> Der Stau-Protest lähmt die Versorgung, die Basari wenden sich gegen den Schah (S. 19–20).</li>
+<li><b>Abstieg durch Flucht:</b> Haus und Besitz werden billig verkauft, nur zwei Koffer (S. 46–47). In Istanbul: mittellos, illegal, Rattenwohnung in Aksaray (S. 49).</li>
+<li><b>Abhängigkeit in Deutschland:</b> Arbeitsverbot für den Arzt-Vater, Sozialhilfe und Gutscheine statt Bargeld (S. 86–87); 20-Mark-Gutschein für Sommerkleidung (S. 99).</li>
+<li><b>Kontrast Konsum – Armut:</b> KaDeWe-Luxus gegenüber der Zweimarkmünze (S. 74, 77–80).</li>
+<li><b>Schwarzmarkt:</b> Zugang zu Jeans, Videos, Musik im Iran (S. 39–41).</li>
+</ul></div>
+<h3>👥 Sozial</h3>
+<div class="card"><ul>
+<li><b>Familie als Halt:</b> Die Familie reist und bleibt zusammen – Entscheidung, <i>alle</i> mitzunehmen, nicht nur die Söhne (S. 42–43).</li>
+<li><b>Rollenumkehr:</b> Kinder übersetzen Schulbriefe für die Eltern (S. 9, 96), die Erzählerin muss früh erwachsen sein.</li>
+<li><b>Geschlechterrollen im Iran:</b> Mädchen werden kontrolliert (Kopftuch, Schule, Siba); Jungen werden für den Krieg angeworben.</li>
+<li><b>Ausgrenzung:</b> «Geh dorthin zurück, wo du herkommst» (S. 9, 85–86), Mobbing (Canan), Ausländerfeindlichkeit der Biologielehrerin, Konflikte zwischen Flüchtlingsgruppen (Iraner/Araber, S. 71–73).</li>
+<li><b>Hilfe und Solidarität:</b> Cousins, Mohammedi, Zuhal, Klassenlehrerin, Rektor, türkischer Laden, Weihnachtsgeschenke im Heim.</li>
+<li><b>Zivilgesellschaft vs. Staat:</b> Nachbarn rufen von den Dächern, schützen Siba-Familie, tauschen Informationen (BBC).</li>
+</ul></div>
+<h3>🎎 Kulturell</h3>
+<div class="card"><ul>
+<li><b>Persische Kultur:</b> Brücke Si-o-Se-Pol, Teehäuser, Märchen der Grossmutter, Tee, Safranreis, Hammelgulasch (S. 13, 47, 102).</li>
+<li><b>Religion als Staatsmacht:</b> Korangesänge im Fernsehen, Religionslehrerinnen, Djehannam-Angst, Märtyrerkult (S. 28–31, 37).</li>
+<li><b>Westliche Popkultur als Sehnsucht:</b> Michael Jackson, Rocky, Bruce Lee, Modern Talking (S. 39–41).</li>
+<li><b>Kulturschock in Deutschland:</b> Essen (Gebäck süss statt salzig, S. 85), Kälte, Weihnachten, Christstollen, Pommes/Schnitzel, «Schlafanzug», Fremdsprachen.</li>
+<li><b>Schrift:</b> Wechsel von persischer (rechts–links) zu lateinischer Schrift (S. 101).</li>
+<li><b>Kulturelle Zwischenstation Türkei:</b> Sprache lernen, Türken als «eine Art Heimat» in Deutschland (S. 91).</li>
+</ul></div>
+<h3>🧠 Psychologisch / Identität</h3>
+<div class="card"><ul>
+<li>Verlustgefühle: «Ganz tief in mir wurde etwas abgetrennt…» (S. 28), «Ich wollte nicht da sein, wo ich war, und ich wollte nicht die sein, die ich war.» (S. 60).</li>
+<li>Angst und Schuld: betet 15× täglich aus Angst um die Eltern (S. 31).</li>
+<li>Scham (Bettnässen vor dem Flug, S. 56; «Schlafanzug»).</li>
+<li>Bewältigung: Erinnern, Erzählen, «kleine Schätze» (Margarinendose).</li>
+<li>Identität als Weg: «Pilgerin aus Isfahan» (S. 109).</li>
+</ul></div>
+<h3>✍ Sprache und Erzählweise</h3>
+<div class="card"><ul>
+<li><b>Ich-Erzählerin mit doppelter Perspektive:</b> kindliches Erleben + erwachsener Rückblick (Epilog, S. 108).</li>
+<li><b>Rahmenstruktur:</b> Prolog/Epilog Tschernobyl, dazwischen drei Teile (Iran – Türkei – Deutschland).</li>
+<li><b>Bildhafte Sprache:</b> Vergleiche und Personifikationen (Iran = Katze, Rhein = frei, Neckar = «gefangener Geselle» im «Korsett aus Beton», Klassenlehrerin = «Fels im Meer», «Millionen bunter Schmetterlinge» im Kopf, S. 91).</li>
+<li><b>Anaphern im Prolog:</b> «Es galt…», «Für mich galt es…» (S. 8–9) betonen die Aufgabenlast des Kindes.</li>
+<li><b>Ironie und Komik:</b> Staubsaugervertreter, Pommes-Durchsage, «Schlafanzug».</li>
+<li><b>Sprachmix:</b> persische und türkische Wörter («Evet!», «Türk müsün?»).</li>
+<li><b>Illustrationen</b> (Bildtrenner vor Karlsruhe und Heidelberg, Schneekugel im Prolog) strukturieren den Text.</li>
+<li><b>Eingeschobene Sachabschnitte</b> (Geografie der Flüsse, Tschernobyl) verbinden Persönliches mit Weltgeschichte.</li>
+</ul></div>
+</section>
+
+<!-- SYMBOLE -->
+<section id="symbols">
+<h2>Symbole und Motive</h2>
+<table>
+<tr><th>Symbol</th><th>Beleg</th><th>Deutung</th></tr>
+<tr><td><b>Brücke Si-o-Se-Pol (33 Bogen) und Teehäuser</b></td><td>S. 13: «Hier trafen sich Verliebte, wenn nachts die Bogen von unten angestrahlt wurden und die Brücke sich im Wasser spiegelte.»</td><td>Heimat, Geborgenheit, Liebe der Eltern, Gemeinschaft, Kindheit. Der Titel verweist auf diese verlorene, idealisierte Heimat. Brücke = Verbindung zwischen Ufern, Zeiten und Kulturen.</td></tr>
+<tr><td><b>Katze / «sitzende Katze» Iran</b></td><td>S. 11, 34, 43–46</td><td>Iran als Wesen, das uns anschaut. Streunerkatzen = Schutzbedürftige, die Erzählerin als Beschützerin. Katzen zurücklassen = Heimat und Unschuld verlieren.</td></tr>
+<tr><td><b>Fluss / Wasser</b></td><td>Zayandeh Rud S. 11; Rhein S. 82; Neckar S. 89; Pripjat S. 6</td><td>Lebensspender und Gefahr; Rhein = Freiheit ohne Grenzen; Neckar = Einengung. Wellen der Menge S. 16 = Gemeinschaft.</td></tr>
+<tr><td><b>Salz</b></td><td>S. 11–12, 84–85</td><td>Herkunft und Namen (Namakizadeh), Wüste/Gefahr; Geschmack als Fremdheit (Süsses statt Salziges).</td></tr>
+<tr><td><b>Kopftuch und abgeschnittener Zopf</b></td><td>S. 26–32</td><td>Staatliche Kontrolle über den Körper, Verlust der Kindheit. Später das «freiwillig» getragene Maghna’e = Anpassung unter Druck.</td></tr>
+<tr><td><b>Mond</b></td><td>S. 20–21, 60</td><td>Wunderglaube an Khomeini → Verlust und Trauer.</td></tr>
+<tr><td><b>Rot (Brunnenwasser, Stirnbänder)</b></td><td>S. 32, 37, 87</td><td>Blut, Martyrium, Gefahr für die Söhne.</td></tr>
+<tr><td><b>Codewort «Zucker»</b></td><td>S. 42, 67</td><td>Süsse Hoffnung im Gefährlichen; Überlebenszeichen.</td></tr>
+<tr><td><b>Gestrandete Wale</b></td><td>S. 51</td><td>Flüchtlinge, die weder vor noch zurück können.</td></tr>
+<tr><td><b>Marionette und Schnüre</b></td><td>S. 75–76</td><td>Abhängigkeit und Wunsch nach Freiheit; Befreiung ist riskant, denn die Puppe bricht zusammen.</td></tr>
+<tr><td><b>Zweimarkstück, Schlümpfe, Margarinendose</b></td><td>S. 77–80</td><td>Kleine Schätze = Erinnerung, Selbstbestimmung, Sinn des Behaltens. «Dieser Margarinenschatz machte mir Mut…»</td></tr>
+<tr><td><b>KaDeWe-Glasaufzüge</b></td><td>S. 74</td><td>Glänzende, unerreichbare Konsumwelt; warmer Zufluchtsort.</td></tr>
+<tr><td><b>Gerüche (Lavendel, Tee, Gewürze)</b></td><td>S. 47, 65</td><td>Heimat im Gedächtnis; Erinnerung an die Grossmutter.</td></tr>
+<tr><td><b>Glasglocke / Schneekugel</b></td><td>Prolog S. 5, 8</td><td>Schutzraum und Isolation. Die Familie schottet sich in Heidelberg von der Welt ab, um sich zu erholen. Ein Bild von Geborgenheit und Abgeschlossenheit (das Schneekugel-Bild des Prologs zeigt Pripjat unter einer Glocke).</td></tr>
+<tr><td><b>Schlüssel und Tür</b></td><td>S. 84, 90</td><td>Sicherheit: erst mit eigenem Schlüssel «Stille!» (S. 90).</td></tr>
+<tr><td><b>Sechs gleiche Gegenstände</b></td><td>S. 90</td><td>Die Familie wird als Individuen gesehen, nicht als Masse.</td></tr>
+<tr><td><b>Pommes-Durchsage</b></td><td>S. 97–98</td><td>Gemeinsames Jubeln = Zugehörigkeit.</td></tr>
+<tr><td><b>Pilgerin</b></td><td>S. 8, 108–109</td><td>Flucht als Lebensweg, Suche nach Freiheit und Frieden; Familienname «Pilger aus Isfahan».</td></tr>
+<tr><td><b>Pripjat / Tschernobyl</b></td><td>S. 6–9, 105–108</td><td>Spiegelgeschichte zum eigenen Heimatverlust; unsichtbare Bedrohung; Geisterstadt = Erinnerungsort.</td></tr>
+</table>
+<h3>Motive</h3>
+<p><span class="tag">Heimat und Heimatverlust</span><span class="tag">Flucht</span><span class="tag">Erinnerung</span><span class="tag">Sprache</span><span class="tag">Name</span><span class="tag">Freiheit vs. Kontrolle</span><span class="tag">Kindheit</span><span class="tag">Tiere</span><span class="tag">Zugehörigkeit</span></p>
+<h3>Titel und Deutung</h3>
+<div class="card">«33 Bogen» = die Brücke Si-o-Se-Pol in Isfahan, Treffpunkt und Wahrzeichen; «Teehaus» = Ort der Gemeinschaft in ihrer Nähe. Gemeint ist damit die verlorene Heimat, die in Gerüchen, Orten und Geschichten weiterlebt. Der Titel verspricht Wärme, während der Text Verlust erzählt – ein Spannungsverhältnis, das du in der Prüfung ansprechen kannst. <i>(Prüfe in deiner Ausgabe, ob dein Lehrer eine eigene Deutung vorgegeben hat.)</i></div>
+</section>
+
+<!-- ZITATE -->
+<section id="quotes">
+<h2>Wichtige Zitate (PDF-Seiten)</h2>
+<div class="note">Zitate vor der Prüfung kurz in deiner Ausgabe gegenprüfen und Seitenzahl ergänzen.</div>
+<table>
+<tr><th>Zitat</th><th>Seite</th><th>Wofür?</th></tr>
+<tr><td>«So verpassten wir Tschernobyl.»</td><td>9</td><td>Rahmen; eigene Katastrophe überlagert die Weltkatastrophe</td></tr>
+<tr><td>«Von oben sieht Iran aus wie eine sitzende Katze, die ihren Kopf zu uns dreht und uns betrachtet.»</td><td>11</td><td>Katzenbild; Einstieg in Teil 1</td></tr>
+<tr><td>«Hier trafen sich Verliebte, wenn nachts die Bogen von unten angestrahlt wurden und die Brücke sich im Wasser spiegelte»</td><td>13</td><td>Brücke als Heimatort</td></tr>
+<tr><td>«Ich hebe mir den Rest auf für knappe Zeiten.»</td><td>15</td><td>Vorahnung von Mangel (Bruder)</td></tr>
+<tr><td>«Ein Wunder ist geschehen.»</td><td>21</td><td>Mond/Khomeini; Wunderglaube</td></tr>
+<tr><td>«Ganz tief in mir wurde etwas abgetrennt, wofür ich keinen Namen hatte, sondern nur eine Erinnerung.»</td><td>28</td><td>Zopf, Kopftuch, innerer Verlust</td></tr>
+<tr><td>«Ich werde jeden Tag fünfzehnmal beten. Fünfmal für mich und zehnmal für meine Eltern.»</td><td>31</td><td>Angst, religiöser Druck</td></tr>
+<tr><td>«Wir gratulieren Ihnen zum Märtyrertod Ihres Sohnes!»</td><td>37</td><td>Kriegspropaganda, Zynismus</td></tr>
+<tr><td>«Ich liebte sie alle, mit all ihren Extravaganzen, Ängsten und ihrem Charme.»</td><td>43</td><td>Katzen</td></tr>
+<tr><td>«In diesem Moment starb ich ein bisschen.»</td><td>47</td><td>Abschied</td></tr>
+<tr><td>«Wir sind hier gestrandet. Wie Wale. Wir können weder vor noch zurück.»</td><td>51</td><td>Situation der Flüchtlinge</td></tr>
+<tr><td>«Ich wollte nicht da sein, wo ich war, und ich wollte nicht die sein, die ich war.»</td><td>60</td><td>Zerrissenheit im Flugzeug</td></tr>
+<tr><td>«Die Marionette schnitt eine Schnur nach der anderen ab.»</td><td>76</td><td>Selbstbestimmung/Risiko</td></tr>
+<tr><td>«Dieser Margarinenschatz machte mir Mut und ließ mich Gefallen an meiner zauberhaften neuen Heimat finden, wo der Schnee Schätze barg.»</td><td>80</td><td>Hoffnung, kleine Schätze</td></tr>
+<tr><td>«Der Rhein ist auf seiner mehr als eintausend Kilometer langen Reise das Symbol für Freiheit.»</td><td>82</td><td>Freiheit vs. Grenzen</td></tr>
+<tr><td>«Hier spricht man Deutsch!»</td><td>83</td><td>Behörden, Sprache als Macht</td></tr>
+<tr><td>«Das Leben in diesem Flüchtlingsheim war wie ein Leben im Gefängnis»</td><td>84</td><td>Unterbringung</td></tr>
+<tr><td>«Es zählte nur, dass wir kein Deutsch sprachen.»</td><td>85</td><td>Abwertung ohne Rücksicht auf Bildung</td></tr>
+<tr><td>«Der Neckar ist ein gefangener Geselle.»</td><td>89</td><td>Gegenbild zum Rhein</td></tr>
+<tr><td>«Türken waren eine Art Heimat für uns.»</td><td>91</td><td>Vertrautheit im Fremden</td></tr>
+<tr><td>«Ich war integriert.»</td><td>98</td><td>Zugehörigkeit durch Jubel</td></tr>
+<tr><td>«Sie war mein Halt.»</td><td>101</td><td>Klassenlehrerin</td></tr>
+<tr><td>«Jede Familie durfte nur einen Koffer und jedes Kind nur ein Spielzeug mitnehmen.»</td><td>107</td><td>Pripjat – Parallele</td></tr>
+<tr><td>«Ich bin Pilgerin aus Isfahan, und mein Pilgerweg war es, Freiheit und Frieden zu finden.»</td><td>109</td><td>Schlussgedanke, Identität</td></tr>
+</table>
+</section>
+
+<!-- TIPPS -->
+<section id="tips">
+<h2>Tipps zur Prüfungsvorbereitung</h2>
+<div class="grid">
+<div class="card"><b>1. Handlung sicher beherrschen</b><br>Erzähle die Handlung in 10 Sätzen und nach Teilen (Iran – Türkei – Deutschland), inkl. Prolog/Epilog.</div>
+<div class="card"><b>2. Zeitstrahl lernen</b><br>1974 Geburt · Revolution ~1979 · Kriegsbeginn · 1985 Flucht · Dez. 1985 DDR-Visum · Feb. 1986 Karlsruhe · April 1986 Heidelberg · 26.4.1986 Tschernobyl.</div>
+<div class="card"><b>3. Figuren</b><br>Namen: Hosein, Mehri (laut Widmung), Zuhal, Canan, Herr Mohammedi, Siba, Frau Scharify, Pari, Abbas-Ali, Gholamreza. Die Erzählerin und die Geschwister haben keine Namen!</div>
+<div class="card"><b>4. Zitate</b><br>Lerne 6–8 Zitate (siehe Zitate-Tab) und ordne jedes einem Symbol / Thema zu.</div>
+<div class="card"><b>5. Hintergrund</b><br>Revolution, Pasdaran, Bassidschi, Iran–Irak-Krieg, Mauer / DDR, Asylverfahren, Tschernobyl in je 2–3 Sätzen erklären können.</div>
+<div class="card"><b>6. Antwortaufbau</b><br><b>Behauptung → Beleg (Zitat/Szene mit Seite) → Erklärung → Bezug zur Frage.</b></div>
+<div class="card"><b>7. Zeit einteilen</b><br>Aufgabe lesen (1 Min.), Stichworte (2–3 Min.), schreiben, 2 Min. Kontrolle (Rechtschreibung, Belege).</div>
+<div class="card"><b>8. Lernplan (7 Tage)</b><br>1 Handlung · 2 Figuren · 3 Hintergrund · 4 Symbole · 5 Analyse-Ebenen · 6 Aufgaben üben · 7 Repetition und Quiz.</div>
+</div>
+<h3>Operatoren</h3>
+<table>
+<tr><th>Operator</th><th>Bedeutung</th></tr>
+<tr><td>Nenne</td><td>Kurz aufzählen</td></tr>
+<tr><td>Beschreibe / Fasse zusammen</td><td>Sachlich in eigenen Worten</td></tr>
+<tr><td>Erkläre / Erläutere</td><td>Zusammenhänge mit Beispiel begründen</td></tr>
+<tr><td>Analysiere / Untersuche</td><td>Sprache, Aufbau, Wirkung am Text zeigen</td></tr>
+<tr><td>Charakterisiere</td><td>Eigenschaften, Verhalten, Entwicklung einer Figur mit Belegen</td></tr>
+<tr><td>Deute</td><td>Symbol/Stelle mit Textbezug interpretieren</td></tr>
+<tr><td>Vergleiche</td><td>Gemeinsamkeiten und Unterschiede</td></tr>
+<tr><td>Beurteile / Nimm Stellung</td><td>Eigenes, begründetes Urteil</td></tr>
+</table>
+<h3>Typische Fehler</h3>
+<ul>
+<li>Erzählerin «Mehrnousch» nennen – im Text bleibt sie namenlos (Autorin ≠ Figur gleichsetzen vorsichtig, besser «Ich-Erzählerin»).</li>
+<li>Nur Handlung nacherzählen statt zu analysieren.</li>
+<li>Symbole nennen ohne Beleg.</li>
+<li>Prolog/Epilog vergessen.</li>
+</ul>
+<h3>Checkliste</h3>
+<ul style="list-style:none;padding-left:0">
+<li><label><input type="checkbox"> Handlung in 10 Sätzen</label></li>
+<li><label><input type="checkbox"> Zeitstrahl 1974–1986</label></li>
+<li><label><input type="checkbox"> 8 Figuren charakterisieren</label></li>
+<li><label><input type="checkbox"> 6 Symbole deuten</label></li>
+<li><label><input type="checkbox"> 8 Zitate mit Seitenzahl</label></li>
+<li><label><input type="checkbox"> Prolog/Epilog-Funktion erklären</label></li>
+<li><label><input type="checkbox"> Historischen Hintergrund erklären</label></li>
+<li><label><input type="checkbox"> 5 Aufgaben schriftlich geübt</label></li>
+</ul>
+</section>
+
+<!-- AUFGABEN -->
+<section id="tasks">
+<h2>Aufgaben mit Lösungen</h2>
+<p>Erst selbst schriftlich antworten, dann Lösung öffnen. Musterlösungen sind Vorschläge.</p>
+
+<details><summary>1. Fasse den Roman in 6–8 Sätzen zusammen.</summary>
+<div class="sol">Die Ich-Erzählerin wächst als Tochter eines Arztes und einer Krankenschwester in Isfahan auf. Nach der Revolution und im Krieg zwischen Iran und Irak verlieren die Menschen ihre Freiheiten; Mädchen müssen ein Kopftuch tragen, Jungen werden für den Krieg angeworben. Als dem 14-jährigen Bruder die Ausreise bald verboten wird, flieht die ganze Familie über die Türkei und die DDR nach West-Berlin. In Karlsruhe und Heidelberg erlebt sie Asylbürokratie, Armut, Sprachprobleme und Ausgrenzung, aber auch Hilfe durch Zuhal, die Klassenlehrerin und den türkischen Laden. Rahmen sind Prolog und Epilog über Tschernobyl, die zeigen, dass die Familie ihre eigene Katastrophe bewältigen musste. Am Ende versteht sich die Erzählerin als «Pilgerin aus Isfahan» auf der Suche nach Freiheit und Frieden.</div></details>
+
+<details><summary>2. Welche Funktion haben Prolog und Epilog (Tschernobyl)?</summary>
+<div class="sol">Sie bilden einen Rahmen und verbinden die private Geschichte mit der Weltgeschichte. Der Prolog stellt Pripjat als Stadt vor, die ihre Bewohner ohne Abschied verlassen mussten, und zeigt, dass die Familie die Weltkatastrophe «verpasst», weil sie mit ihrer eigenen beschäftigt ist (S. 8–9). Der Epilog erklärt, wie das Unglück am 26. April 1986 geschah, und stellt die Evakuierung von Pripjat (ein Koffer, ein Spielzeug) der eigenen Flucht gegenüber (S. 107). Die erwachsene Erzählerin versteht rückblickend, was sie als Kind nicht einordnen konnte (S. 108). So wird Heimatverlust als allgemeine Erfahrung sichtbar.</div></details>
+
+<details><summary>3. Erkläre den Titel «33 Bogen und ein Teehaus».</summary>
+<div class="sol">Die 33 Bogen verweisen auf die Brücke Si-o-Se-Pol in Isfahan, einen Treffpunkt mit Teehäusern, wo sich die Eltern verliebten und die Erzählerin als Vierjährige gern war (S. 13). Der Titel steht für die Heimat, an die sich die Erzählerin als Ort der Geborgenheit erinnert. Er kontrastiert mit der Erzählung von Krieg, Flucht und Verlust.</div></details>
+
+<details><summary>4. Beschreibe, wie sich die Revolution für die Erzählerin als Kind anfühlt und wie sich das ändert.</summary>
+<div class="sol">Zunächst ist die Revolution aufregend: Die Familie hat Zeit füreinander, die Kinder gehen spät ins Bett und rufen mit den Nachbarn Parolen von den Dächern; sie vergleicht es mit Sommerferien (S. 18–21). Khomeini im Mond erscheint wie ein Wunder (S. 21). Nach dem Sturz des Schahs folgen aber Verbote, Willkür (Siba) und Angst (S. 22–25). Mit dem Krieg und der Einschulung merkt sie, dass die Erwachsenen sich geirrt haben und dass die Freude der Anfangszeit trügerisch war.</div></details>
+
+<details><summary>5. Wie stellt der Text das Kopftuch und den abgeschnittenen Zopf dar? Deute die Szene.</summary>
+<div class="sol">Mutter und Tante überzeugen die Erzählerin, das Kopftuch als Zeichen des «grossen Mädchens» zu akzeptieren; am Vorabend schneidet die Mutter ihr den Zopf ab, damit die Haare unter das Tuch passen (S. 26–28). Die Erzählerin erlebt es als inneren Verlust: «Ganz tief in mir wurde etwas abgetrennt…» (S. 28). Der Zopf steht für Kindheit und Selbstbestimmung, das Kopftuch für staatliche Kontrolle über Mädchen. Später trägt sie das verhasste Maghna’e «freiwillig» (3. Klasse) – Anpassung aus Druck und Angst.</div></details>
+
+<details><summary>6. Charakterisiere die Mutter und den Vater (mit Belegen).</summary>
+<div class="sol"><b>Vater Hosein:</b> Arzt, gebildet, optimistisch, politisch gegen den Schah. Er will den Sohn vor dem Krieg schützen und entscheidet die Flucht (S. 35–47). Er ist dankbar für die Schulpflicht (S. 91–92), aber in Deutschland ohnmächtig (Arbeitsverbot, unverständliche Dokumente, S. 83–87).<br><b>Mutter:</b> Krankenschwester, praktisch und beschützend: richtet den Keller ein (S. 33–34), stellt den bedrohlichen Jungen zur Rede (S. 72). Sie ist kritischer als der Vater und fragt in Karlsruhe, ob die Flucht richtig war (S. 87). Beide halten die Familie zusammen.</div></details>
+
+<details><summary>7. Charakterisiere den älteren Bruder und erkläre seine Entwicklung.</summary>
+<div class="sol">Er ist erfinderisch und träumt davon, Schokoladenfabrikant zu werden (S. 18). Im Krieg lehnt er Waffen ab; er sehnt sich nach dem Westen und liebt Michael Jackson, kauft auf dem Schwarzmarkt Jeans und Videos (S. 39–41). Als sein einziger Freund sich zum Militär meldet, weint er, wird still und dicker (S. 41). Das drohende Ausreiseverbot bringt ihm Hoffnung zurück (S. 43). Er steht für die Jugend, die im Iran keine Zukunft sieht.</div></details>
+
+<details><summary>8. Warum flieht die Familie – und wie verläuft die Flucht?</summary>
+<div class="sol">Auslöser: Ein neues Gesetz verbietet jungen Männern ab 15 die Ausreise, der älteste Sohn ist 14 (S. 42). Hintergrund sind Krieg, Zwangsrekrutierung durch die Bassidschi, Repression und Verbote. Verlauf: Hausverkauf, Abschied (S. 46–47) → Bus nach Istanbul (3 Tage) → Aksaray, illegal, kein Schulbesuch (S. 49–50) → DDR-Visum in Ankara (Dez. 1985, S. 53) → Flug nach Ost-Berlin, S-Bahn nach West-Berlin (S. 57–66) → Asyl (S. 70) → Karlsruhe → Heidelberg (S. 82–89). Insgesamt vierzehn Monate (S. 8, 89).</div></details>
+
+<details><summary>9. Was zeigt die Marionettenszene im KaDeWe?</summary>
+<div class="sol">Eine traurige Clown-Marionette erkennt, dass sie an Schnüren hängt, schneidet sie durch und fällt zusammen (S. 75–76). Die Erzählerin weint bei jeder Vorstellung. Die Szene deutet das Bedürfnis nach Selbstbestimmung an, aber auch das Risiko: Freiheit ohne Halt kann zum Absturz führen. Das passt zur Lage der Flüchtlinge, die ihre alten Bindungen gekappt haben und noch keinen neuen Halt haben.</div></details>
+
+<details><summary>10. Beschreibe die Erfahrungen im Flüchtlingsheim Karlsruhe und interpretiere die Sprache.</summary>
+<div class="sol">Lange Schlangen, Kinder werden herumgestossen, ein Beamter schreit «Hier spricht man Deutsch!» (S. 82–83). Fingerabdrücke, Unterschriften ohne Erklärung, kaum Privatsphäre, Tür nicht abschliessbar, Drogen und Schlägereien, Magen-Darm-Probleme (S. 83–84). Die Erzählerin spricht vom «Leben im Gefängnis» und von «dunklem, traurigem Loch». Die Behörde behandelt die Menschen als Masse. Die Sprache ist emotional, bildhaft und zeigt die Perspektive des ohnmächtigen Kindes.</div></details>
+
+<details><summary>11. Vergleiche Rhein und Neckar. Was bedeuten die Flussbilder?</summary>
+<div class="sol">Der Rhein fliesst über Grenzen hinweg bis in die Nordsee und ist «das Symbol für Freiheit» (S. 82), im Gegensatz zur Familie, die an Aufenthaltsorte gebunden ist. Der Neckar ist ein «gefangener Geselle», in ein «Korsett aus Beton» gezwungen (S. 89). Er steht für die Einengung durch menschliche Systeme; in Heidelberg ist die Familie zwar sicher, aber noch nicht frei (Stadtgrenzen, Arbeitsverbot). Auch der Zayandeh Rud (S. 11) ist ein «Leben spendender Fluss», der in Sümpfen und Salzsee endet.</div></details>
+
+<details><summary>12. Wie wird Ausgrenzung dargestellt – und was hilft der Erzählerin?</summary>
+<div class="sol">Ausgrenzung: Aufforderungen, Deutschland zu verlassen (S. 85–86), ungefragtes Anfassen der Haare (S. 94), Mobbing durch Canan («Schlafanzug», S. 99–100), die als ausländerfeindlich erlebte Biologielehrerin (S. 100), Abwertung wegen fehlender Deutschkenntnisse (S. 85). Hilfe: Zuhal als Übersetzerin (S. 95–97), geduldige Klassenlehrerin («Sie war mein Halt», S. 101), freundlicher Rektor, türkischer Laden als «Heimat» (S. 91), die Pommes-Durchsage als Moment der Zugehörigkeit (S. 98).</div></details>
+
+<details><summary>13. Erkläre «Ich war integriert.» (S. 98). Ist das eine vollständige Integration?</summary>
+<div class="sol">Die Erzählerin jubelt gleichzeitig mit den anderen Kindern über die Ansage «Pommes» und versteht sich zum ersten Mal als Teil der Klasse. Es ist ein Moment des Dazugehörens, aber kein Endpunkt: Danach erlebt sie weiter Mobbing (Canan), Missverständnisse (Geburtstag von Zuhal, S. 98–99) und Sprachbarrieren. Integration erscheint als Prozess mit Rückschlägen.</div></details>
+
+<details><summary>14. Analysiere die Erzählperspektive und -struktur.</summary>
+<div class="sol">Ich-Erzählerin, rückblickend, aber oft auf dem Wissensstand des Kindes («warum?»). Dadurch wirken politische Ereignisse konkret und emotional. Im Epilog spricht die erwachsene Erzählerin (30 Jahre später, S. 108) und löst Rätsel (Staubsaugervertreter, Tschernobyl). Struktur: Prolog – Teil 1 Iran – Teil 2 Türkei – Teil 3 Deutschland – Epilog; drei Teile entsprechen drei Stationen/Ländern. Erklärende Einschübe (Geografie, Geschichte) verbinden Privates mit Weltgeschichte.</div></details>
+
+<details><summary>15. Interpretiere: «Ich bin Pilgerin aus Isfahan, und mein Pilgerweg war es, Freiheit und Frieden zu finden.» (S. 109)</summary>
+<div class="sol">Der Familienname Zaeri-Esfahani heisst «Pilger aus Isfahan» (S. 108–109). Die Erzählerin deutet ihre Flucht als Pilgerweg: nicht nur als Opfer, sondern als Suche mit Ziel. Sie verbindet Herkunft (Isfahan) und Ziel (Freiheit und Frieden). Das schafft Identität zwischen den Welten und zeigt Würde und Selbstermächtigung. Der Satz bildet auch den Gegenpol zu «gestrandeten Walen» (S. 51).</div></details>
+
+<details><summary>16. Wirtschaftliche Ebene: Zeige am Text, wie sich der Status der Familie verändert.</summary>
+<div class="sol">Iran: Arzt-Vater, Haus mit Garten und Pool, Bedienstete (S. 19, 34, 49). Flucht: Haus billig verkauft, zwei Koffer (S. 46–47). Istanbul: mittellos, Rattenwohnung in Aksaray (S. 49), Vater nur kleine Krankenhaus-Arbeit (S. 54). Deutschland: Arbeitsverbot, Sozialhilfe und Gutscheine statt Bargeld (S. 86–87), 20-Mark-Gutschein für Kleidung (S. 99), gebrauchte Möbel (S. 90). Der Kontrast KaDeWe-Luxus ↔ Zweimarkstück macht den Abstieg anschaulich (S. 74, 77–80).</div></details>
+
+<details><summary>17. Transfer: Wie aktuell ist der Roman? Nimm Stellung.</summary>
+<div class="sol">Der Roman zeigt, wie Politik, Krieg und Flucht Kinder prägen. Bürokratie, Sprachprobleme, Ausgrenzung und Hilfsbereitschaft sind auch heute Themen der Migration. Seine Stärke ist die Einzelperspektive, die Statistiken Gesichter gibt, und die Parallele zu Pripjat (Heimat verlieren ist universal). Einschränkung: Das Buch erzählt einen Einzelfall aus den 1980ern; Verfahren und Rechtslage haben sich geändert, man darf nicht verallgemeinern.</div></details>
+
+<details><summary>18. Kreatives Schreiben: Verfasse einen Tagebucheintrag der Erzählerin am ersten Abend in Heidelberg.</summary>
+<div class="sol"><b>Inhaltspunkte:</b> Schlüssel, «Stille!» (S. 90); sechs Betten / sechs Stühle; türkischer Laden; erstes selbst gekochtes Essen; Gedanke an die Verwandten in Iran (S. 91); Sorge wegen der Schule; «Schmetterlinge im Kopf». Ich-Form, Präteritum oder Präsens, einfache Sprache, Sinneseindrücke (Geruch, Geschmack).</div></details>
+
+<h3>Quiz</h3>
+<div id="quiz"></div>
+<button class="btn" onclick="checkQuiz()">Auswerten</button>
+<p id="quizResult"></p>
+
+<h3>Lernkarten</h3>
+<div class="flash" id="flash" onclick="flip()"></div>
+<p style="text-align:center"><button class="btn" onclick="nextCard()">Nächste Karte</button> <button class="btn" onclick="randCard()">Zufällig</button></p>
+</section>
+
+</main>
+<footer>Erstellt nach vollständiger Lektüre des Buches (PDF, Peter Hammer Verlag). Seitenzahlen = PDF-Seiten. Bitte mit deiner Ausgabe und dem Unterricht abgleichen.</footer>
+
+<script>
+const sections=[["start","Überblick"],["summary","Zusammenfassung"],["figures","Personen"],["links","Zusammenhänge"],["analysis","Analyse"],["symbols","Symbole"],["quotes","Zitate"],["tips","Prüfungstipps"],["tasks","Aufgaben"]];
+const nav=document.getElementById('nav');
+sections.forEach(([id,t])=>{const b=document.createElement('button');b.textContent=t;b.onclick=()=>show(id);b.dataset.id=id;nav.appendChild(b)});
+function show(id){document.querySelectorAll('section').forEach(s=>s.classList.toggle('active',s.id===id));nav.querySelectorAll('button').forEach(b=>b.classList.toggle('active',b.dataset.id===id));window.scrollTo(0,0)}
+show('start');
+
+const quiz=[
+{q:"Wie heisst der Vater der Erzählerin?",o:["Hosein","Hassan","Mohammedi"],a:0},
+{q:"Welches Ereignis wird im Prolog und Epilog behandelt?",o:["Mauerfall","Tschernobyl","Golfkrieg"],a:1},
+{q:"Wo wohnt die Familie am Ende in Deutschland?",o:["Hamburg","Berlin","Heidelberg"],a:2},
+{q:"Was löst die Fluchtentscheidung unmittelbar aus?",o:["Ausreiseverbot für Männer ab 15","Hauseinsturz","Schulgeld"],a:0},
+{q:"Welches Codewort steht für das Überleben der Cousins?",o:["Tee","Zucker","Salz"],a:1},
+{q:"Wer ist Zuhal?",o:["Lehrerin","Türkische Mitschülerin und erste Helferin","Cousine"],a:1},
+{q:"Wofür steht der Rhein im Buch?",o:["Freiheit","Krieg","Armut"],a:0},
+{q:"Wie wird der Neckar beschrieben?",o:["Gefangener Geselle","Wilder Riese","Leben spendender Fluss"],a:0},
+{q:"Wie reist die Familie nach West-Berlin?",o:["Zug aus Wien","Flug nach Ost-Berlin, dann S-Bahn","Über die Ostsee"],a:1},
+{q:"Was kaufen die Kinder im KaDeWe mit zwei Mark?",o:["Schokolade","Zwei Schlümpfe","Ein Buch"],a:1},
+{q:"Was bedeutet der Familienname Zaeri-Esfahani laut Epilog?",o:["Salzgeborener","Pilger aus Isfahan","Sohn des Arztes"],a:1},
+{q:"Welche Gruppe wirbt im Krieg Jungen als Kämpfer an?",o:["Bassidschi","Basari","Peschmerga"],a:0},
+{q:"Wen vergleicht die Erzählerin mit einem Fels im Meer?",o:["Den Rektor","Die Klassenlehrerin","Die Mutter"],a:1},
+{q:"Wie nennt die Erzählerin sich am Schluss?",o:["Pilgerin aus Isfahan","Deutsche","Katzenmama"],a:0}
+];
+const qd=document.getElementById('quiz');
+quiz.forEach((x,i)=>{const d=document.createElement('div');d.className='quiz-q';d.innerHTML='<b>'+(i+1)+'. '+x.q+'</b>'+x.o.map((o,j)=>`<label><input type="radio" name="q${i}" value="${j}"> ${o}</label>`).join('');qd.appendChild(d)});
+function checkQuiz(){let s=0;quiz.forEach((x,i)=>{const c=document.querySelector(`input[name=q${i}]:checked`);const box=qd.children[i];box.style.borderColor='#ddc9b4';if(c&&+c.value===x.a){s++;box.style.borderColor='#2f7d4f'}else{box.style.borderColor='#b00020'}});
+document.getElementById('quizResult').innerHTML=`<span class="${s>=11?'ok':'bad'}">${s} von ${quiz.length} richtig.</span> (Grün = richtig, rot = falsch/unbeantwortet)`}
+
+const cards=[
+["Autorin / Illustrator?","Mehrnousch Zaeri-Esfahani / Bruder Mehrdad Zaeri-Esfahani"],
+["Aufbau des Buches?","Prolog – Teil 1 Iran – Teil 2 Türkei – Teil 3 Deutschland – Epilog"],
+["Worum geht es im Prolog?","Pripjat/Tschernobyl; Familie lebt in Heidelberg «unter einer Glasglocke» und «verpasst Tschernobyl»"],
+["Was ist die Si-o-Se-Pol?","Brücke mit 33 Bogen in Isfahan: Treffpunkt, Teehäuser, Heimatort"],
+["Pasdaran?","Revolutionsgarde, kontrolliert die Bevölkerung"],
+["Bassidschi?","Freiwilligenmiliz, wirbt Jungen für den Krieg"],
+["Wer ist Siba?","Sportlerin, wegen verrutschten Schleiers geschlagen"],
+["Was passiert mit dem Zopf?","Die Mutter schneidet ihn vor der Einschulung ab (Kopftuch)"],
+["Warum flieht die Familie?","Ausreiseverbot für Männer ab 15 – Bruder ist 14; Krieg, Repression"],
+["Route der Flucht?","Isfahan → Istanbul → Ankara (DDR-Visum) → Ost-Berlin → West-Berlin → Karlsruhe → Heidelberg"],
+["Herr Mohammedi?","Iranischer Flüchtling; Plan mit DDR-Visa"],
+["Marionette im KaDeWe?","Schneidet Schnüre durch und fällt zusammen: Freiheit mit Risiko"],
+["Margarinendose?","Aufbewahrung der kleinen Schätze (Zweimarkrest, Schlümpfe) – Hoffnung, Erinnerung"],
+["Karlsruhe in einem Wort?","Gefängnisgefühl: Anstehen, «Hier spricht man Deutsch!»"],
+["Heidelberg: erstes Gefühl?","«Stille!» – Sicherheit durch eigenen Schlüssel"],
+["Zuhal – Canan?","Zuhal hilft; Canan mobbt («Schlafanzug»)"],
+["Pommes-Durchsage?","Gemeinsamer Jubel → «Ich war integriert.»"],
+["Epilog: Familienname?","Gholamreza wählt Zaeri-Esfahani = Pilger aus Isfahan"],
+["Zentrale Aussage?","Heimat geht verloren, aber Erinnerung, Familie und ein eigener «Pilgerweg» tragen weiter"]
+];
+let ci=0,front=true;const fl=document.getElementById('flash');
+function render(){fl.textContent=front?cards[ci][0]:cards[ci][1];fl.style.background=front?'#fff':'#e9f6ee'}
+function flip(){front=!front;render()}
+function nextCard(){ci=(ci+1)%cards.length;front=true;render()}
+function randCard(){ci=Math.floor(Math.random()*cards.length);front=true;render()}
+render();
+</script>
+</body>
+</html>
